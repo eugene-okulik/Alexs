@@ -7,7 +7,8 @@ my_dict = {
 print(my_dict['my_tuple'][-1])
 my_dict['my_list'].append(345)
 my_dict['my_list'].pop(1)
-my_dict['another_dict']['six'] = 'added_element'
+my_dict['another_dict'][('i am a tuple',)] = 'added_element'
 my_dict['another_dict'].pop('three')
 my_dict['my_set'].add(55.76)
 my_dict['my_set'].pop()
+print(my_dict)
