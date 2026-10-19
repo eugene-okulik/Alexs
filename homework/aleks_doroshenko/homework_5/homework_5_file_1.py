@@ -22,6 +22,6 @@ print(number + 10)
 students = ['Ivanov', 'Petrov', 'Sidorov']
 subjects = ['math', 'biology', 'geography']
 join_students = ', '.join(students)
-join_subjects =', '.join(subjects)
+join_subjects = ', '.join(subjects)
 text_exit = 'Students {0} study these subjects: {1}'
 print(text_exit.format(join_students, join_subjects))
