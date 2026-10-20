@@ -6,19 +6,17 @@ print(name, last_name, city, phone, country)
 a = 'результат операции: 42'
 b = a.index(':')
 c = int(a[b + 2:])
-print(c + 10)
-
-
+print(c)
 
 a = 'результат операции: 514'
 b = a.index(':')
 c = int(a[b + 2:])
-print(c + 10)
+print(c)
 
 a = 'результат работы программы: 9'
 b = a.index(':')
 c = int(a[b + 2:])
-print(c + 10)
+print(c)
 
 
 students = ['Ivanov', 'Petrov', 'Sidorov']
