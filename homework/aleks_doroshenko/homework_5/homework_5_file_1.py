@@ -4,9 +4,21 @@ print(name, last_name, city, phone, country)
 
 
 a = 'результат операции: 42'
-b=a.index(':')
-print(a, b)
+b = a.index(':')
+c = int(a[b + 2:])
+print(c + 10)
 
+
+
+a = 'результат операции: 514'
+b = a.index(':')
+c = int(a[b + 2:])
+print(c + 10)
+
+a = 'результат работы программы: 9'
+b = a.index(':')
+c = int(a[b + 2:])
+print(c + 10)
 
 
 students = ['Ivanov', 'Petrov', 'Sidorov']
